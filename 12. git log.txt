@@ -1,0 +1,3 @@
+mysite $ git pull origin master
+mysite $ git log
+mysite $ git log -p

@@ -1,0 +1,3 @@
+mysite $ git status
+mysite $ git add stylesheet.css
+mysite $ git status

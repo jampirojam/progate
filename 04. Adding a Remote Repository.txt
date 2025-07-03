@@ -1,0 +1,1 @@
+mysite $ git remote add origin https://prog-8.com/mysite.git

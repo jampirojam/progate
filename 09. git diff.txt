@@ -1,0 +1,2 @@
+mysite $ git diff
+mysite $ git add index.html
