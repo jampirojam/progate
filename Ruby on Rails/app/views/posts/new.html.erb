@@ -1,0 +1,21 @@
+<div class="main posts-new">
+  <div class="container">
+    <h1 class="form-heading">Create a new post</h1>
+  </div>
+    <!-- Add a form_tag method to send the data to /posts/create -->
+    <%= form_tag("/posts/create") do %>
+      <div class="form">
+        <div class="form-body">
+          <% @post.errors.full_messages.each do |message| %>
+            <div class="form-error">
+              <%= message %>
+            </div>
+          <% end %>          
+          <!-- Display the default value using <%= %> -->
+          <textarea name="content"><%= @post.content %></textarea>
+          <input type="submit" value="Post">
+        </div>
+      </div>
+    <!-- Add an end statement -->
+    <% end %>
+</div>
