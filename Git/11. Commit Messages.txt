@@ -1,0 +1,2 @@
+mysite $ git commit -m "Change subtitle color"
+mysite $ git push origin master
